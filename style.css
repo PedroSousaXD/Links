@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+div.container {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
+
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 48px 0;
+}
+
+h1 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 32px;
+  color: white;
+}
+
+ul li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(90, 5%, 5%);
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  transition: background 400ms;
+}
+
+ul li a:hover {
+  background: hsl(90, 5%, 0%);
+}
+
+footer {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/755726/pexels-photo-755726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: 100vw;
+}
+
+
+.rainbow-box {
+  width: 150px;
+  height: 150px;
+  border: double 4px transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #b827fc 20%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  padding: 3px;
+}
+
+
+/*.rainbow-box {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: transparent;
+  background-image: linear-gradient( to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  padding: 6px;
+
+}
